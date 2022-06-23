@@ -1,0 +1,21 @@
+name: MobEggDropper
+version: '${version}'
+main: me.thatcher.mobeggdropper.MobEggDropper
+api-version: 1.19
+authors: [ Thatch ]
+description: A simple plugin to allow players to purchase the eggs of animals they have killed.
+commands:
+  hello-world:
+    description: Just says hi!
+    aliases:
+      - helloworld
+      - hellowWorld
+  med:
+    description: The default command to interact with this plugin.
+    aliases:
+      - MobEggDropper
+  egg-toggle:
+    description: Toggles whether or not you will recive the eggs of mobs included.
+    aliases:
+      - eggtoggle
+      - toggleegg
